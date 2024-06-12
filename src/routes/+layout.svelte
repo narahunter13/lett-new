@@ -96,14 +96,14 @@
 </div>
 
 <svelte:head>
-	<title>Leet | BPS Kota Lubuk Linggau</title>
+	<title>Lett | BPS Kota Lubuk Linggau</title>
 	<meta name="description" content="Aplikasi Manajemen Surat Masuk dan Keluar BPS Kota Lubuk Linggau" />
 	<meta name="keywords" content="Surat, Surat Masuk, Surat Keluar, Aplikasi, BPS, Lubuk Linggau" />
 
 	<!-- Facebook Meta Tags -->
 	<meta property="og:url" content="https://lett-omega.vercel.app/" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Leet | BPS Kota Lubuk Linggau" />
+	<meta property="og:title" content="Lett | BPS Kota Lubuk Linggau" />
 	<meta
 		property="og:description"
 		content="Aplikasi Manajemen Surat Masuk dan Keluar BPS Kota Lubuk Linggau"
@@ -114,7 +114,7 @@
 	<!-- <meta name="twitter:card" content="summary_large_image" /> -->
 	<meta property="twitter:domain" content="lett-omega.vercel.app" />
 	<meta property="twitter:url" content="https://lett-omega.vercel.app/" />
-	<meta name="twitter:title" content="Leet | BPS Kota Lubuk Linggau" />
+	<meta name="twitter:title" content="Lett | BPS Kota Lubuk Linggau" />
 	<meta
 		name="twitter:description"
 		content="Aplikasi Manajemen Surat Masuk dan Keluar BPS Kota Lubuk Linggau"
