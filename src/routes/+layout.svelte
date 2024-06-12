@@ -88,7 +88,6 @@
 		</header>
 		<main class="h-full bg-gray-100">
 			<div class="px-6 mx-auto grid">
-				<h2 class="my-6 text-2xl font-semibold text-gray-700">Dashboard</h2>
 				<slot />
 			</div>
 		</main>
@@ -101,7 +100,7 @@
 	<meta name="keywords" content="Surat, Surat Masuk, Surat Keluar, Aplikasi, BPS, Lubuk Linggau" />
 
 	<!-- Facebook Meta Tags -->
-	<meta property="og:url" content="https://lett-omega.vercel.app/" />
+	<meta property="og:url" content="https://lett-omega.vercel.app" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Lett | BPS Kota Lubuk Linggau" />
 	<meta
@@ -113,7 +112,7 @@
 	<!-- Twitter Meta Tags -->
 	<!-- <meta name="twitter:card" content="summary_large_image" /> -->
 	<meta property="twitter:domain" content="lett-omega.vercel.app" />
-	<meta property="twitter:url" content="https://lett-omega.vercel.app/" />
+	<meta property="twitter:url" content="https://lett-omega.vercel.app" />
 	<meta name="twitter:title" content="Lett | BPS Kota Lubuk Linggau" />
 	<meta
 		name="twitter:description"

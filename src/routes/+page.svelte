@@ -1,7 +1,7 @@
 <script>
 	import CardDashboard from '$lib/components/CardDashboard.svelte';
 </script>
-
+<h2 class="my-6 text-2xl font-semibold text-gray-700">Dashboard</h2>
 <div class="grid gap-6 mb-8 md:grid-cols-2 xl:grid-cols-4">
 	<CardDashboard title="Surat Masuk" total={100} class="bg-orange-200 text-orange-400">
 		<path
