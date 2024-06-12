@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { cn } from "$lib/utils";
+	import { fly } from "svelte/transition";
 
     let title: string;
     let total: number;
@@ -11,7 +12,7 @@
     }
 </script>
 
-<div class="flex items-center p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
+<div in:fly={{ y: 200, duration: 1000 }} class="flex items-center p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
     <div class={cn("mr-4 p-3 rounded-full", className)}>
         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
             <slot/>

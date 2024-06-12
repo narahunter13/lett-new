@@ -1,9 +1,12 @@
-<script>
+<script lang="ts">
 	import CardDashboard from '$lib/components/CardDashboard.svelte';
+	import type { PageData } from './$types'
+
+	export let data: PageData;
 </script>
 <h2 class="my-6 text-2xl font-semibold text-gray-700">Dashboard</h2>
 <div class="grid gap-6 mb-8 md:grid-cols-2 xl:grid-cols-4">
-	<CardDashboard title="Surat Masuk" total={100} class="bg-orange-200 text-orange-400">
+	<CardDashboard title="Surat Masuk" total={data.countSuratMasuk} class="bg-orange-200 text-orange-400">
 		<path
 			d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z"
 		/>
@@ -11,7 +14,7 @@
 			d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z"
 		/>
 	</CardDashboard>
-	<CardDashboard title="Surat Keluar" total={100} class="bg-indigo-200 text-indigo-400">
+	<CardDashboard title="Surat Keluar" total={data.countSuratKeluar} class="bg-indigo-200 text-indigo-400">
 		<path
 			d="M19.5 22.5a3 3 0 0 0 3-3v-8.174l-6.879 4.022 3.485 1.876a.75.75 0 1 1-.712 1.321l-5.683-3.06a1.5 1.5 0 0 0-1.422 0l-5.683 3.06a.75.75 0 0 1-.712-1.32l3.485-1.877L1.5 11.326V19.5a3 3 0 0 0 3 3h15Z"
 		/>
