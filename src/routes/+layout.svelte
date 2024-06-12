@@ -101,19 +101,19 @@
 	<meta name="keywords" content="Surat, Surat Masuk, Surat Keluar, Aplikasi, BPS, Lubuk Linggau" />
 
 	<!-- Facebook Meta Tags -->
-	<!-- <meta property="og:url" content="https://typehere.fun" /> -->
+	<meta property="og:url" content="https://lett-omega.vercel.app/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Leet | BPS Kota Lubuk Linggau" />
 	<meta
 		property="og:description"
 		content="Aplikasi Manajemen Surat Masuk dan Keluar BPS Kota Lubuk Linggau"
 	/>
-	<!-- <meta property="og:image" content="https://typehere.fun/og.webp" /> -->
+	<!-- <meta property="og:image" content="https://lett-omega.vercel.app//og.webp" /> -->
 
 	<!-- Twitter Meta Tags -->
-	<!-- <meta name="twitter:card" content="summary_large_image" />
-	<meta property="twitter:domain" content="typehere.fun" />
-	<meta property="twitter:url" content="https://typehere.fun" /> -->
+	<!-- <meta name="twitter:card" content="summary_large_image" /> -->
+	<meta property="twitter:domain" content="lett-omega.vercel.app" />
+	<meta property="twitter:url" content="https://lett-omega.vercel.app/" />
 	<meta name="twitter:title" content="Leet | BPS Kota Lubuk Linggau" />
 	<meta
 		name="twitter:description"
