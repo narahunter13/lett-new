@@ -60,3 +60,9 @@ export const flyAndScale = (
 		easing: cubicOut
 	};
 };
+
+export const formattedValue = (unix: bigint): string => {
+    const month = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
+    let date = new Date(Number(unix) * 1000);
+    return `${date.getDate()} ${month[date.getMonth()]} ${date.getFullYear()}`;
+}
